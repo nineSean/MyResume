@@ -1,7 +1,6 @@
 body
 {
-    background: black;
-    color: white;
+    background: rgb(245, 240, 240);
     padding: 0;
     margin: 0;
 }
@@ -15,24 +14,10 @@ a
 .logo
 {
     font-size: 24px;
-    font-family: "Arial Unicode MS";
-    font-weight: bold;
+    font-family: "Times New Roman";
     padding-top: 3px;
     padding-bottom: 4px;
-}
-
-.topNavBar .logo .rs
-{
-    margin-right: 4px;
-    color: red;
-
-}
-
-.topNavBar .logo .card
-{
-   
-    color: black;
-
+    color: rgb(7, 214, 241);
 }
 
 .topNavBar nav>ul
@@ -98,4 +83,70 @@ a
     top: 0;
     left: 0;
     width: 100%
+}
+.description{
+    max-width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+}
+
+.text{
+    float: left;
+    margin-left: 30px;
+    width: 450px;
+    margin-top: 25px;
+}
+.picture{
+    float: left;
+
+}
+.picture .justify{
+    max-width: 300px;
+    max-height: 374px;
+}
+
+.package{
+    padding: 23px 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text h1{
+    margin-top: 18px;
+}
+
+
+.text hr{
+    margin:20px 0;
+}
+
+.text dl dt{
+    float: left;
+    width:40%;
+    padding:5px 0;
+}
+.text dl dd
+{
+   float: left;
+   width:60%; 
+   padding:5px 0;
+   color: #9da0a7;
+}
+
+.media{
+    background: #e6686a;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.description svg{
+    width: 40px;
+    height: 40px;
+    fill: white;
+    vertical-align: top;
+    margin:0 16px;
 }
